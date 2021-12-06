@@ -28,7 +28,8 @@ Demographics information is dynamically populated based upon a user-selected tes
 
 <3>The bonus challenge was to create a gauge chart. Using the [documentation](https://plotly.com/javascript/gauge-charts/), an indicator trace was created with wfreq as the value for plotting.Any null values were given a value of zero.The gauge chart accounts for weekly washing frequency values ranging from 0-10.
 
-![Guagegraph](https://user-images.githubusercontent.com/90277142/144779198-d2ae2457-ab54-468d-ac5e-31b5a9821819.png)
+![Guagegraph](https://user-images.githubusercontent.com/90277142/144781307-679cb447-0596-4721-845d-56572dade98d.png)
+
 
 * A function called plotCharts(id) was created that would take in a test subject ID as a parameter and plot all the above charts.
 
