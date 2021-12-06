@@ -171,18 +171,25 @@ function plotCharts(id) {
 
         // define the plot layout
         var layout = {
-            title: 'Bacteria Cultures Per Sample',
+            title: {text:`<b>Bacteria Cultures Per Sample</b>`,
+            font: {color: 'rgb(34,94,168)'}
+        },
+        
             showlegend: false,
             height: 500,
-            width: 1155
+            width: 1155,
+            xaxis: {
+                title: "<b>OTU ID<b>",
+                color: 'rgb(34,94,168)'
+            },
           };
 
         // plot the bubble chat to the appropriate div
         Plotly.newPlot('bubble', dataBub, layout);
 
-        // ----------------------------------
+        
         // PLOT GAUGE CHART (OPTIONAL)
-        // ----------------------------------
+        
 
         // if wfreq has a null value, make it zero for calculating pointer later
         if (wfreq == null) {
@@ -195,7 +202,7 @@ function plotCharts(id) {
             value: wfreq,
             type: "indicator",
             mode: "gauge+number",
-            title: { text: "Scrubs Per Week", font: { size: 24 } },
+            title: { text: "Scrubs Per Week", font: { size: 24 } ,color: "blue" },
             //delta: { reference: 400, increasing: { color: "RebeccaPurple" } },
             gauge: {
                 axis: { range: [null, 10], tickwidth: 1, tickcolor: "darkblue" },
@@ -217,7 +224,7 @@ function plotCharts(id) {
             width: 470,
             height: 400,
             //title: 'Belly Button Washing Frequency',
-            title: {text: `<b>Belly Button Washing Frequency</b>`,align: "down"},
+            title: {text: `<b>Belly Button Washing Frequency</b>`,color: "blue"},
             margin: { t: 25, r: 25, l: 25, b: 25 },
             paper_bgcolor: "white",
             font: { color: "black", family: "Arial" }
