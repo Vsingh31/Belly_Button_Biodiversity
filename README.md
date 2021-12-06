@@ -41,6 +41,7 @@ Demographics information is dynamically populated based upon a user-selected tes
 
 #### Dashboard
 <4> Bootstrap and custom CSS was used to pretty up the dashboard. A screenshot of the dashboard can be seen below.
+
 ![dashboard1](https://user-images.githubusercontent.com/90277142/144781077-d74a73e0-d1e0-40fd-8f9a-b07f19d8de4e.png)
 ![dashboard2](https://user-images.githubusercontent.com/90277142/144781086-9b8b9691-c831-4592-94cd-6715da15b6bf.png)
 
