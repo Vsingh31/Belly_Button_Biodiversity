@@ -6,6 +6,8 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 Demographics information is dynamically populated based upon a user-selected test subject ID. A bar chart, bubble chart and a bonus gauge chart also update once the ID is changed. Code has been written using Plotly, JavaScript, HTML, CSS, and D3.js.All CSS, JS and images required are under the static folder.
 
+**The dashboard can be viewed here:** [Belly Button Diversity Dashboard](https://vsingh31.github.io/Belly_Button_Biodiversity/)
+
 ### Results:
 
 <1>The ask was to retrieve test subject demographics, and draw a bar chart and bubble chart displaying each individual's samples. This was done as follows:
